@@ -1,0 +1,18 @@
+roscore
+roslaunch turtlebot_bringup minimal.launch
+roslaunch turtlebot_navigation amcl_demo.launch map_file:=/home/turtlebot/Documents/map.yaml
+roslaunch turtlebot_rviz_launchers view_navigation.launch --screen
+cd helloworld/turtlebot
+python go_to_specific_point_on_map.py
+
+
+cd Desktop/FYP/PythonCodes/Turtlebot
+chmod +x lt.py
+chmod +x lm.py
+chmod +x lr.py
+chmod +x sp.py
+python lt.py
+python lm.py
+python lr.py
+python sp.py
+

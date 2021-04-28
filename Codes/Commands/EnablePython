@@ -1,0 +1,8 @@
+Every Python code must have this line:
+#!/usr/bin/env python
+
+Next open up command prompt and enter these lines of code:
+roscore
+chmod +x my_python_script.py
+python my_python_script.py
+

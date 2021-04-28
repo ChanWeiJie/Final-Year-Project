@@ -1,0 +1,6 @@
+Coomands:
+ls /dev/ttyUSB*
+sudo chmod 666 /dev/ttyUSB0
+source ~/catkin_ws/devel/setup.bash
+roslaunch rplidar_ros view_rplidar.launch
+roslaunch rplidar_ros view_slam.launch

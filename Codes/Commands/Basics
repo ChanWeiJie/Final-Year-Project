@@ -1,0 +1,10 @@
+TO CREATE A TEXT FILE:
+sudo touch abc.h
+
+
+TO EDIT A TEXT FILE:
+sudo nano abc.h
+sudo gedit abc.h
+
+TO MAKE A DIRECTORY:
+sudo mkdir abc

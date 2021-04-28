@@ -1,0 +1,3 @@
+Commands:
+ifconfig
+ssh turtlebot@[ip_of_turtlebot]
